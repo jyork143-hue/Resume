@@ -107,6 +107,11 @@ def main():
     # Professional Experience
     add_heading(doc, "PROFESSIONAL EXPERIENCE")
 
+    add_job(doc, "Founder & Principal Consultant", "JD AI SOLUTIONS LLC", "Maryland, USA", "2026 - Present", [
+        "Founded and launched an official LLC licensed in the State of Maryland, providing expert-level consulting in AI integration, cognitive workflow automations, and capital project management.",
+        "Leveraging 15+ years of elite experience to deliver strategic project execution and digital transformation frameworks for clients across highly regulated and mission-critical industries."
+    ])
+
     add_job(doc, "Nuclear Project Manager, Capital Projects", "XCEL ENERGY (via SelectSource Int'l)", "Prairie Island Nuclear Plant, MN", "2025 - 2025", [
         "Led capital project planning and project execution support under the strict, regulated parameters of a commercial nuclear power facility.",
         "Managed complex project workflows, risk matrices, and data governance alignments supporting the site's Project Planning and Execution Process (PPEP).",
