@@ -1,3 +1,4 @@
+import os
 import docx
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -212,7 +213,8 @@ def main():
         p.paragraph_format.space_after = Pt(2)
         p.add_run(f"- {sc}").font.size = Pt(10)
 
-    doc.save("Johnathan_York_Resume.docx")
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Johnathan_York_Resume.docx")
+    doc.save(output_path)
 
 if __name__ == "__main__":
     main()
